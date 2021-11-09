@@ -15,6 +15,17 @@ nav {
 
 footer {
     background-color: var(--dark-color);
+    padding: 0 1rem;
+}
+
+a {
+    color: var(--white-color);
+    opacity: .75;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    opacity: .9;
 }
 
 h1,
@@ -29,6 +40,13 @@ h6 {
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
+}
+
+.brandFont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
 }
 
 .sticky-footer {

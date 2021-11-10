@@ -2,7 +2,7 @@
     --primary-color: #1d5888;
     --secondary-color: #ff993b;
     --dark-color: #292929;
-    --white-color: #e2e2e2;
+    --white-color: #ffffff;
 }
 
 body {
@@ -19,13 +19,11 @@ footer {
 }
 
 a {
-    color: var(--white-color);
-    opacity: .75;
+    color: var(--white-color);    
 }
 
 a:hover {
-    color: var(--secondary-color);
-    opacity: .9;
+    color: var(--secondary-color);    
 }
 
 h1,
@@ -51,4 +49,20 @@ main>.container {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.bsIcon {
+    color: purple;
+}
+
+.jsIcon {
+    color: rgb(233, 233, 14);
+}
+
+.htmlIcon {
+    color: orangered;
+}
+
+.cssIcon {
+    color: rgb(0, 140, 187);
 }

@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+    <!-- CSS and Favicon -->
     <link rel="stylesheet" href="css/site.css">
     <link rel="icon" type="image/png" href="img/favicon-32x32.png">
 </head>
@@ -25,7 +26,7 @@
 
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid col-xxl-10">
             <div class="d-flex align-items-center">
                 <a class="navbar-brand mx-1" href="index.html"><span class="brandFont fs-3">JS</span></a>
                 <a class="navbar-brand mx-1" href="index.html">&nbsp; APP NAME</a>
@@ -58,15 +59,49 @@
 
     <!-- Main Section -->
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template</h1>
-            <p class="lead">Pin a footer to the bottom.</p>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row g-5 pt-5 row-cols-1 row-cols-lg-2">
+                <div class="col order-last order-lg-first">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Lucky Number Even: A Coding Project</h1>
+                    <h4 class="lead">A JavaScript coding exercise using loops, functions, and conditional statements.
+                        This program loops through 0 to 100, displays each number, and highlights the even ones in bold
+                        font weight.</h4>
+                    <ul class="fa-ul pt-2 checklist">
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript Fundamentals</li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript Loops</li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript Functions</li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript DOM Manipulation
+                        </li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript If/Then/Else
+                            Conditional Statements</li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript Boolean Logic</li>
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS and Bootstrap</li>
+                    </ul>
+                    <div>
+                        <a href="app.html" type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2">View App!</a>
+                    </div>
+                    <h5 class="fw-bold mt-5">
+                        <div class="d-flex">
+                            <div class="row">
+                                <div class="col"><i class="fab fa-js-square fa-3x jsIcon"></i></div>
+                                <div class="col"><i class="fab fa-bootstrap fa-3x bsIcon"></i></div>
+                                <div class="col"><i class="fab fa-html5 fa-3x htmlIcon"></i></div>
+                                <div class="col"><i class="fab fa-css3-alt fa-3x cssIcon"></i></div>
+                            </div>
+                        </div>
+                    </h5>
+                </div>
+                <div class="col">
+                    <img src="img/LuckyNumberEven.png" class="img-fluid center-block d-block mx-auto"
+                        alt="Lucky Number Even App Logo" width="500">
+                </div>
+            </div>
         </div>
     </main>
 
     <!-- Footer Section -->
     <footer class="footer mt-auto py-2">
-        <div class="container-fluid">
+        <div class="container-fluid col-xxl-10">
             <div class="row row-cols-1 row-cols-lg-3 gy-1">
                 <div
                     class="col order-last order-lg-first text-light d-flex justify-content-center justify-content-lg-start align-items-center">

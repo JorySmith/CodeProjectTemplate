@@ -19,11 +19,11 @@ footer {
 }
 
 a {
-    color: var(--white-color);    
+    color: var(--white-color);
 }
 
 a:hover {
-    color: var(--secondary-color);    
+    color: var(--secondary-color);
 }
 
 h1,
@@ -41,7 +41,7 @@ main>.container {
 }
 
 .brandFont {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sticky-footer {
@@ -65,4 +65,8 @@ main>.container {
 
 .cssIcon {
     color: rgb(0, 140, 187);
+}
+
+.checklist>li i {
+    color: var(--secondary-color);
 }

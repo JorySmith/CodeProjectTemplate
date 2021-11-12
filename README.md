@@ -1,6 +1,6 @@
-# CodeProjectTemplate
+# Project Name - A Coding Project
 
-A website template for JS coding projects
+Exec summary. A website template for JS coding projects.
 
 # Live demo: 
 https://jorysmith.github.io/CodeProjectTemplate/
